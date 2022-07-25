@@ -1,0 +1,159 @@
+/*  FONT FAMS 
+font-family: 'Amatic SC', cursive;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Freehand', cursive;
+font-family: 'Stalemate', cursive;
+font-family: 'The Girl Next Door', cursive; 
+*************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 12px;
+}
+/************* ELEMENTS ******************/
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+footer {
+  bottom: 0;
+}
+footer li {
+  display: inline-block;
+  padding: 1% 5%;
+  color: lightgray;
+}
+footer,
+nav {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  background-color: black;
+}
+main {
+  margin: 10% 10%;
+}
+nav {
+  top: 0;
+}
+nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: solid 3px white;
+  padding: 3% 5%;
+  color: white;
+}
+nav li {
+  display: inline-block;
+  padding: 2% 1%;
+}
+li ol {
+  padding-left: 8%;
+  font-size: 1.5rem;
+}
+/*************** CLASSES ****************/
+.block-container {
+  margin: 1rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.block {
+  padding: 25% 0.7rem;
+  text-align: left;
+  color: white;
+}
+.cite {
+  text-indent: 60%;
+  padding-bottom: 7%;
+}
+.line {
+  text-indent: 8%;
+  padding-top: 2%;
+}
+.resource-item {
+  padding-top: 4%;
+}
+.resource-list {
+  padding: 2% 8%;
+  font-size: 1.25rem;
+}
+.topic {
+  border: 8px solid black;
+  padding: 1rem;
+  margin: 5% 5%;
+}
+/********************** IDs ******************/
+#amatic {
+  font-family: "Amatic SC", cursive;
+  font-size: 2rem;
+}
+#cambridge {
+  background-color: #a7bbab;
+}
+#cedarville {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 2rem;
+}
+#contact-bttn {
+  text-decoration: none;
+  border: solid 2px lightgray;
+  padding: 3% 5%;
+  color: lightgray;
+}
+#fonts {
+  font-weight: bold;
+  padding: 3% 8%;
+}
+#font-container {
+  padding-top: 10%;
+}
+#freehand {
+  font-family: "Freehand", cursive;
+  font-size: 2rem;
+}
+#girl {
+  font-family: "The Girl Next Door", cursive;
+  font-size: 2rem;
+}
+#jungle {
+  background-color: #152c2b;
+}
+#ming {
+  background-color: #3f7c81;
+}
+#sapphire {
+  background-color: #1a6a9e;
+}
+#stalemate {
+  font-family: "Stalemate", cursive;
+  font-size: 3rem;
+}
+/******************* @media ******************/
+@media (max-width: 480px) {
+  htm {
+    font-size: 10px;
+  }
+  .block-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 600px) {
+  htm {
+    font-size: 16px;
+  }
+}
+/****************** STATES ****************/
+.block:hover {
+  transition: font-size 0.5s;
+  font-size: 1.5rem;
+  padding: 17% 0.7rem;
+}
+a:hover {
+  opacity: 0.5;
+}
