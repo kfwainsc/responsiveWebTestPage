@@ -136,15 +136,26 @@ li ol {
 }
 /******************* @media ******************/
 @media (max-width: 480px) {
-  htm {
-    font-size: 10px;
+  html {
+    font-size: 12px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 1% 8%;
+    color: lightgray;
+  }
+
+  .cite {
+    text-indent: 30%;
+    padding-bottom: 7%;
+    font-size: 1.5rem;
   }
   .block-container {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 @media (min-width: 600px) {
-  htm {
+  html {
     font-size: 16px;
   }
 }
@@ -152,7 +163,7 @@ li ol {
 .block:hover {
   transition: font-size 0.5s;
   font-size: 1.5rem;
-  padding: 17% 0.7rem;
+  padding: 16% 0.7rem;
 }
 a:hover {
   opacity: 0.5;
