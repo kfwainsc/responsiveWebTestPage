@@ -141,10 +141,9 @@ li ol {
   }
   footer li {
     display: inline-block;
-    padding: 1% 8%;
+    padding: 1% 15%;
     color: lightgray;
   }
-
   .cite {
     text-indent: 30%;
     padding-bottom: 7%;
